@@ -146,6 +146,7 @@ hr {
 .intro {
 	display: table;
 	width: 100%;
+	min-height:750px;
 	padding: 0;
 	text-align: center;
 	color: #333;
@@ -173,7 +174,7 @@ hr {
 	margin-top: 20px;
 }
 header .intro-text {
-	padding-top: 200px;
+	padding-top: 75px;
 	padding-bottom: 200px;
 }
 /* About Section */
@@ -421,4 +422,28 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 #footer a:hover {
 	color: #000;
+}
+
+
+.my-nav{
+    backgroundt:transparent;
+    width:100%;
+    margin-top:45px;
+}
+.my-nav ul{
+    margin:0px;
+    padding:0px;
+}
+.my-nav ul li{
+    display:inline-block;
+    width:100px;
+    border:1px solid #CCC;
+    padding:15px;
+}
+.my-nav ul li:hover a{
+    color:#FFF;
+}
+.my-nav ul li:hover{
+    background:#121d1f;
+    color:#FFF;
 }

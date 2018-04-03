@@ -70,7 +70,6 @@ def logout():
 
 @app.route('/signup/',methods=['get','post'])
 def signup():
-    #db.signu()
     username = request.form['username']
     password = request.form['password']
 

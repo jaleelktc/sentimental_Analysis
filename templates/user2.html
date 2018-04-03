@@ -1,0 +1,47 @@
+
+    {% include "header.html" %}
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+        <form name="SignForm" method="post" action="">
+
+
+
+                <center><font size=6><h2> Sign Up</font></h2></font></center>
+
+                 <div class="form-group">
+                      <input type="text" class="form-control" placeholder="First Name" name="f_name">
+                 </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Last Name" name="l_name">
+                </div>
+                <div class="form-group">
+
+                    <input type="text" class="form-control" placeholder=" Login Id"  name="l_id">
+                </div>
+                <div class="form-group">
+
+                    <input type="Password" class="form-control" placeholder=" Password" name="pwd">
+                </div>
+                <div class="form-group">
+                    Gender:
+                    <input type="radio" name="gender" value="male" checked> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </div>
+                <div class="form-group">
+
+
+                    <input type="date" class="form-control" placeholder=" DOB"name="dob">
+                </div>
+                    <div class="form-group">
+                        <input type="Reset" class="btn btn-default btn-lg">
+                        <input type="submit" class="btn btn-default btn-lg"name="submit" value="Sign">
+                    </div>
+        </div>
+        </form>
+
+
+
+        {% include "footer.html" %}
+
+
